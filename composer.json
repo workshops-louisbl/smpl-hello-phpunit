@@ -1,0 +1,16 @@
+{
+    "name": "smpl/hello-test",
+    "autoload": {
+      "psr-4": {
+        "Smpl\\HelloTest\\": "src/"
+      }
+    },
+    "autoload-dev": {
+      "psr-4": {
+        "Smpl\\HelloTest\\": "tests/"
+      }
+    },
+    "require": {
+        "phpunit/phpunit": "^9.1"
+    }
+}
